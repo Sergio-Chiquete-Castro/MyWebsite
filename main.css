@@ -54,9 +54,14 @@ ul {
   }
 
  
- 
+.content {
+     margin-left:25%;
+    padding:1px 16px;
+    height:1000px;
+}
 
-  @media only screen and (max-width: 414px) { /* iPhone 12 Pro Max width */
+/* Media query for smaller screens */
+@media only screen and (max-width: 425px) { /* Adjusted for 425px width */
     ul {
         width: 100%;
         position: static;
@@ -65,9 +70,9 @@ ul {
     
     .content {
         margin-left: 0;
-    }
+      }
     
     .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Adjusted for smaller screens */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjusted for smaller screens */
     }
 }
