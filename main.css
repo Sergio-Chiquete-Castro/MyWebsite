@@ -64,13 +64,4 @@ ul {
 h2{
 margin-left: 20px;
 }
-
-
-@media only screen and (max-width: 430px) {
-    h2{
-        margin-left: 25px;
-    }
-   .gallery{
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-   }
-}
+ 

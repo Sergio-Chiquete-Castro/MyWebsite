@@ -65,20 +65,4 @@ h2{
 margin-left: 20px;
 }
 
-
-@media only screen and (max-width: 430px) {
-    h2{
-        margin-left: 10%;
-    }
-   .gallery{
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-   }
-   ul{
-    width: 25%;
-    height: 25%;
-   }
-     content{
-    margin-left: 0px;
-
-   }
-}
+ 
