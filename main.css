@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #ede0d4;
 }
 
 /**/
@@ -9,57 +10,56 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   gap: 25px;
-  
- }
+}
 .gallery-item {
- 
-    border-style:solid;
-    border-radius: 5px;
-
-  }
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+}
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-
 /*NAVIGATION*/
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
-    background-color: #f3f3f3;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #ddd;
-  }
-  
-  li a.active {
-    color: white;
-    background-color: #04AA6D;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #ede0d4;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #7f5539;
+}
 /*NAVIGATION*/
 
+/**/
+.h2-title {
+  text-align: center;
+}
+/**/
 
-/**/
-  .h2-title{
-   
-   text-align: center;
-  }
-/**/
+.background-sec {
+  background-color: #ede0d4;
+}
