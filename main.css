@@ -55,24 +55,22 @@ ul {
 
  
 .content {
-     margin-left:25%;
-    padding:1px 16px;
-    height:1000px;
+    margin-left:25%;
+    padding:3px 16px;
+    
+}
+ 
+
+h2{
+margin-left: 20px;
 }
 
-/* Media query for smaller screens */
-@media only screen and (max-width: 425px) { /* Adjusted for 425px width */
-    ul {
-        width: 100%;
-        position: static;
-        height: auto;
+
+@media only screen and (max-width: 430px) {
+    h2{
+        margin-left: 50px;
     }
-    
-    .content {
-        margin-left: 0;
-      }
-    
-    .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjusted for smaller screens */
-    }
+   .gallery{
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+   }
 }
