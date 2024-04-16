@@ -8,27 +8,29 @@ body {
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
+  gap: 25px;
+  
+ }
 .gallery-item {
-  border-radius: 5px;
-  border-style: solid;
-  overflow: hidden;
-}
+ 
+    border-style:solid;
+    border-radius: 5px;
+
+  }
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
 }
-/**/
 
+
+/*NAVIGATION*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
+    
     background-color: #f3f3f3;
   }
   
@@ -52,4 +54,12 @@ ul {
     color: white;
     background-color: #04AA6D;
   }
- 
+/*NAVIGATION*/
+
+
+/**/
+  .h2-title{
+   
+   text-align: center;
+  }
+/**/
