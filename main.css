@@ -67,8 +67,19 @@ li a.active {
 
 /*  INTRO    */
 
+.tittle-h2{
+    text-align: center;
+}
 
+.intro-div{
+    border-top-left-radius: 30px;
+    margin-top: 40px;
+    padding:5px;
+    background-color: #7f5539;
+    border-bottom-right-radius: 560px;
+}
 
-
-
+.intro-p{
+    color: white;
+}
 /*  INTRO    */
