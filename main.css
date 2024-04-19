@@ -76,18 +76,17 @@ li a.active {
     format('truetype');
   }
 .intro-div {
-  border-top-left-radius: 30px;
-  margin-top: 40px;
+   margin-top: 40px;
   padding: 5px;
   background-color: #7f5539;
-  border-bottom-right-radius: 560px;
-  border-top-right-radius: 30px;
+  border-radius: 30px;
 }
 
 .intro-p {
   color: white;
   word-spacing: 2px;
   letter-spacing: 1px;
+  margin-left: 10px;
   
 }
 /*  INTRO    */
