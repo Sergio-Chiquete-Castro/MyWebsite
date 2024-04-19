@@ -63,3 +63,13 @@ li a.active {
 .background-sec {
   background-color: #ede0d4;
 }
+
+
+/*  INTRO    */
+
+
+.intro-item {
+     border-radius: 5px;
+    padding: 10px;
+  }
+/*  INTRO    */
