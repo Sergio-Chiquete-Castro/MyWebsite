@@ -64,22 +64,26 @@ li a.active {
   background-color: #ede0d4;
 }
 
-
 /*  INTRO    */
 
-.tittle-h2{
-    text-align: center;
+.tittle-h2 {
+  text-align: center;
 }
 
-.intro-div{
-    border-top-left-radius: 30px;
-    margin-top: 40px;
-    padding:5px;
-    background-color: #7f5539;
-    border-bottom-right-radius: 560px;
+.intro-div {
+  border-top-left-radius: 30px;
+  margin-top: 40px;
+  padding: 5px;
+  background-color: #7f5539;
+  border-bottom-right-radius: 560px;
+  border-top-right-radius: 30px;
 }
 
-.intro-p{
-    color: white;
+.intro-p {
+  color: white;
 }
 /*  INTRO    */
+
+.intro-p-changeColor{
+    color:black;
+}
