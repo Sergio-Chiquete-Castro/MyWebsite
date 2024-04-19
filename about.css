@@ -47,7 +47,7 @@ body {
 .introTwo-div{
     margin-top: 40px;
     padding: 5px;
-    background-color: #7f5539;
+    background-color: #B08968;
     border-radius: 30px;
 }
 .introTwo-p{
@@ -59,10 +59,14 @@ body {
 
 
 /*   INTRO 2     */
+.certif-h4{
+  text-align: center;
+    font-family: 'Monocraft';
+
+}
 
 
-
-.tittle-h2 {
+.title-h2 {
     text-align: center;
     font-family: 'Monocraft';
    }
@@ -71,3 +75,26 @@ body {
       src: url('Monocraft.ttf')
       format('truetype');
     }
+ 
+
+.certif-sec{
+padding: 10px;
+  background-color: #B08968;
+border-radius: 30px;
+
+}
+
+ 
+.info-p{
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+.certif-link{
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
