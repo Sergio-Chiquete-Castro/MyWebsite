@@ -68,8 +68,13 @@ li a.active {
 
 .tittle-h2 {
   text-align: center;
-}
-
+  font-family: 'Monocraft';
+ }
+ @font-face {
+    font-family: 'Monocraft';
+    src: url('Monocraft.ttf')
+    format('truetype');
+  }
 .intro-div {
   border-top-left-radius: 30px;
   margin-top: 40px;
@@ -81,6 +86,8 @@ li a.active {
 
 .intro-p {
   color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
   
 }
 /*  INTRO    */
