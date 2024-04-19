@@ -91,3 +91,21 @@ li a.active {
 }
 /*  INTRO    */
  
+
+
+/*   INTRO 2     */
+.introTwo-div{
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #7f5539;
+    border-radius: 30px;
+}
+.introTwo-p{
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+
+/*   INTRO 2     */
