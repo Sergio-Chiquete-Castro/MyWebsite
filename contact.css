@@ -37,6 +37,7 @@ li a.active {
 }
 /*NAVIGATION*/
 
+/*LINKS*/
 .title-h2 {
   text-align: center;
   font-family: "Monocraft";
@@ -46,11 +47,75 @@ li a.active {
   background-color: #ede0d4;
 }
 
-.icons-div {
-  padding: 10px;
+.icons-div i {
+  color: white;
+  margin-left: 70px;
+  margin-top: 30px;
 }
 
-.icons-div i,
-.icons-div p {
-  display: inline-block;
+.links-div {
+  margin-top: 15px;
 }
+
+.links-div a {
+  color: white;
+
+  margin-left: 62px;
+}
+
+.background-div {
+  background-color: #b08968;
+}
+
+/*LINKS*/
+
+/* FORM*/
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #ede0d4;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #ede0d4;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.container label {
+  color: white;
+}
+
+/* FORM*/
