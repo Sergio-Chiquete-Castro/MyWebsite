@@ -5,6 +5,13 @@ body {
   background-color: #ede0d4;
 }
 
+
+@font-face {
+    font-family: "Monocraft";
+    src: url("Monocraft.ttf") format("truetype");
+  }
+
+
 /*NAVIGATION*/
 ul {
   list-style-type: none;
@@ -65,6 +72,7 @@ li a.active {
 
 .background-div {
   background-color: #b08968;
+  border-radius: 35px;
 }
 
 /*LINKS*/
