@@ -90,3 +90,113 @@ li a.active {
   word-spacing: 2px;
   letter-spacing: 1px;
 }
+
+
+
+@media only screen and (min-width: 1200px) {
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ede0d4;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #ede0d4;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #7f5539;
+}
+
+
+.introTwo-div {
+  padding: 15px;
+  background-color: #b08968;
+  border-radius: 30px;
+
+  max-width:75%;
+  margin-left: 190px;
+
+}
+.introTwo-p {
+  font-size: large;
+  color: white;
+
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+
+ }
+ .certif-h4 {
+  text-align: center;
+  font-family: "Monocraft";
+}
+
+.title-h2 {
+  text-align: center;
+  font-family: "Monocraft";
+}
+@font-face {
+  font-family: "Monocraft";
+  src: url("Monocraft.ttf") format("truetype");
+}
+
+.certif-sec {
+  padding: 15px;
+  background-color: #b08968;
+  border-radius: 30px;
+  max-width:75%;
+  margin-left: 190px;
+}
+
+.info-p {
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  font-size: large;
+
+
+}
+
+.certif-link {
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+
+}
+
+.skill-info {
+
+  font-size: large;
+
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+}

@@ -103,3 +103,142 @@ li a.active {
   margin-left: 10px;
 }
 /*INTRO TWO*/
+
+
+
+
+
+
+
+
+/* Big PP Code */
+@media only screen and (min-width: 1200px) {
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ede0d4;
+  }
+  
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    background-color: #ede0d4;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 12px 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #7f5539;
+  }
+   
+   .title-h2 {
+    text-align: center;
+    font-family: "Monocraft";
+  }
+   
+  .background-sec {
+    background-color: #ede0d4;
+  }
+  
+   
+  @font-face {
+    font-family: "Monocraft";
+    src: url("Monocraft.ttf") format("truetype");
+  }
+  .intro-div {
+     padding: 15px;
+    background-color: #b08968;
+    border-radius: 30px;
+   
+    max-width: 75%;
+   margin-left: 50px;
+  
+  }
+  .container{
+    display: grid;
+     grid-template-columns:2fr 1fr;
+     align-items: center; 
+      }
+  
+  
+  .intro-p {
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    font-size: large;
+  
+  
+  }
+  
+  .gallery {
+    max-width: 45%;  
+      margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 25px;
+  }
+  .gallery-item {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .gallery-item img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+   
+  .introTwo-div {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #b08968;
+    border-radius: 30px;
+    margin-left: 50px;
+    max-width:50%;
+  }
+  
+  .introTwo-p {
+  text-align: center;
+  
+    font-size: large;
+  
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+  }
+   
+  
+
+
+
+
+}
+/* Big PP Code */
+
+
+
+
+
+ 
