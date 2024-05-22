@@ -66,14 +66,15 @@ li a.active {
   text-decoration: underline;
   text-decoration-color: #7f5539;
 }
-
-
-
+ 
 
 @media only screen and (min-width: 1200px) {
   .gallery {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     gap: 20px;
+  }
+  .spacing-for-large{
+    margin-top: 73px;
   }
 }

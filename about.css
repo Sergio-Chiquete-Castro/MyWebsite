@@ -67,30 +67,66 @@ li a.active {
 
 .certif-sec {
   padding: 10px;
-  background-color: #b08968;
+  background-color: #ede0d4;
   border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .info-p {
-  color: white;
+  color: black;
   word-spacing: 2px;
   letter-spacing: 1px;
   margin-left: 10px;
 }
 
 .certif-link {
-  color: white;
+  color: #7f5539;
   word-spacing: 2px;
   letter-spacing: 1px;
   margin-left: 10px;
 }
 
-.skill-info {
-  color: white;
+.skill-info1 {
+
+  font-size: large;
+  color: black;
   word-spacing: 2px;
   letter-spacing: 1px;
+  margin-top: 25px;
+  }
+
+.skill-info2 {
+
+  font-size: large;
+  color: black;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  }
+
+.gallery {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+.gallery-item {
+  border-radius: 5px;
+  padding: 10px;
+}
+.gallery-item img {
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
+hr{
+  width: 72%;
+  border : 3px solid #7f5539;
+  border-radius: 50px;
+
+}
 
 
 @media only screen and (min-width: 1200px) {
@@ -153,12 +189,15 @@ li a.active {
  .certif-h4 {
   text-align: center;
   font-family: "Monocraft";
-}
+  width: 90%;
+  color: black;
+  }
 
 .title-h2 {
   text-align: center;
   font-family: "Monocraft";
-}
+  margin-right: 55px;
+ }
 @font-face {
   font-family: "Monocraft";
   src: url("Monocraft.ttf") format("truetype");
@@ -166,14 +205,15 @@ li a.active {
 
 .certif-sec {
   padding: 15px;
-  background-color: #b08968;
+  background-color: #ede0d4;
   border-radius: 30px;
   max-width:75%;
   margin-left: 190px;
-}
+
+ }
 
 .info-p {
-  color: white;
+  color: black;
   word-spacing: 2px;
   letter-spacing: 1px;
   margin-left: 10px;
@@ -183,20 +223,81 @@ li a.active {
 }
 
 .certif-link {
-  color: white;
+  color: #7f5539;
   word-spacing: 2px;
   letter-spacing: 1px;
   margin-left: 10px;
 
 }
 
-.skill-info {
+.skill-info1 {
 
   font-size: large;
-
-  color: white;
+  color: black;
   word-spacing: 2px;
   letter-spacing: 1px;
+  margin-top: 25px;
+  }
+
+.skill-info2 {
+
+  font-size: large;
+  color: black;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  }
+ 
+ /*new image*/
+ .gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+
+
+ 
+  }
+
+.gallery-item {
+  border-radius: 5px;
+  padding: 10px;
 }
 
+.gallery-item img {
+  border-radius: 15px;
+  width: 67%;
+  height: auto;
+  display: block;
 }
+
+.container{
+  display: grid;
+   grid-template-columns:1fr 1fr;
+   align-items: center; 
+
+    }
+    
+
+     /*new image*/
+
+     hr{
+ 
+      border : 3px solid #7f5539;
+      border-radius: 50px;
+      
+      width: 80%;
+     }
+
+     .spacingHeaders{
+      margin-bottom: 50px;
+     }
+}
+
+
+
+/*spacing between headers*/
+
+
+.spacingHeaders{
+  margin-bottom: 70px;
+ }

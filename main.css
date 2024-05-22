@@ -111,7 +111,7 @@ li a.active {
 
 
 
-/* Big PP Code */
+/* Screen Code */
 @media only screen and (min-width: 1200px) {
 
   body {
@@ -166,7 +166,7 @@ li a.active {
     src: url("Monocraft.ttf") format("truetype");
   }
   .intro-div {
-     padding: 15px;
+    padding: 15px;
     background-color: #b08968;
     border-radius: 30px;
    
@@ -192,35 +192,36 @@ li a.active {
   }
   
   .gallery {
-    max-width: 45%;  
-      margin-top: 15px;
+    max-width: 50%;  
+    margin-top: 15px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    gap: 25px;
-  }
+    gap: 20px;
+    }
   .gallery-item {
     border-radius: 5px;
     padding: 10px;
+ 
   }
   .gallery-item img {
     border-radius: 15px;
     width: 100%;
     height: auto;
     display: block;
+ 
   }
    
   .introTwo-div {
-    margin-top: 10px;
-    padding: 5px;
+    padding: 15px;
     background-color: #b08968;
     border-radius: 30px;
-    margin-left: 50px;
-    max-width:50%;
+   
+    max-width: 75%;
+   margin-left: 50px;
   }
   
   .introTwo-p {
-  text-align: center;
-  
+   
     font-size: large;
   
     color: white;
@@ -231,14 +232,30 @@ li a.active {
    
   
 
+  hr{
+    width: 550px;
+
+  }
+
+
+  
 
 
 
 }
-/* Big PP Code */
+/* Screen Code */
 
 
 
+
+
+/*hr*/
+
+
+hr{
+  width: 45%;
+  
+}
 
 
  
