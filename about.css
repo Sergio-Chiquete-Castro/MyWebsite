@@ -74,10 +74,13 @@ li a.active {
 }
 
 .info-p {
-  color: black;
+  color: white;
   word-spacing: 2px;
   letter-spacing: 1px;
   margin-left: 10px;
+  background-color: #b08968;
+  border-radius: 25px;
+  padding: 30px;
 }
 
 .certif-link {
@@ -88,21 +91,27 @@ li a.active {
 }
 
 .skill-info1 {
-
   font-size: large;
-  color: black;
+  color: white;
   word-spacing: 2px;
   letter-spacing: 1px;
   margin-top: 25px;
-  }
+
+  background-color: #b08968;
+  border-radius: 25px;
+  padding: 30px;
+}
 
 .skill-info2 {
+  background-color: #b08968;
+  border-radius: 25px;
+  padding: 30px;
 
   font-size: large;
-  color: black;
+  color: white;
   word-spacing: 2px;
   letter-spacing: 1px;
-  }
+}
 
 .gallery {
   margin-top: 15px;
@@ -121,13 +130,11 @@ li a.active {
   display: block;
 }
 
-hr{
+hr {
   width: 72%;
-  border : 3px solid #7f5539;
+  border: 3px solid #7f5539;
   border-radius: 50px;
-
 }
-
 
 @media only screen and (min-width: 1200px) {
   body {
@@ -137,167 +144,157 @@ hr{
     background-color: #ede0d4;
   }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 
-  background-color: #ede0d4;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 12px 25px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-li a.active {
-  color: white;
-  background-color: #7f5539;
-}
-
-
-.introTwo-div {
-  padding: 15px;
-  background-color: #b08968;
-  border-radius: 30px;
-
-  max-width:75%;
-  margin-left: 190px;
-
-}
-.introTwo-p {
-  font-size: large;
-  color: white;
-
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  margin-left: 10px;
-
- }
- .certif-h4 {
-  text-align: center;
-  font-family: "Monocraft";
-  width: 90%;
-  color: black;
+    background-color: #ede0d4;
   }
 
-.title-h2 {
-  text-align: center;
-  font-family: "Monocraft";
-  margin-right: 55px;
- }
-@font-face {
-  font-family: "Monocraft";
-  src: url("Monocraft.ttf") format("truetype");
-}
-
-.certif-sec {
-  padding: 15px;
-  background-color: #ede0d4;
-  border-radius: 30px;
-  max-width:75%;
-  margin-left: 190px;
-
- }
-
-.info-p {
-  color: black;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  margin-left: 10px;
-  font-size: large;
-
-
-}
-
-.certif-link {
-  color: #7f5539;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  margin-left: 10px;
-
-}
-
-.skill-info1 {
-
-  font-size: large;
-  color: black;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  margin-top: 25px;
+  li {
+    float: left;
   }
 
-.skill-info2 {
-
-  font-size: large;
-  color: black;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  }
- 
- /*new image*/
- .gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px;
-
-
- 
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 12px 25px;
+    text-decoration: none;
   }
 
-.gallery-item {
-  border-radius: 5px;
-  padding: 10px;
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+  li a.active {
+    color: white;
+    background-color: #7f5539;
+  }
+
+  .introTwo-div {
+    padding: 15px;
+    background-color: #b08968;
+    border-radius: 30px;
+
+    max-width: 75%;
+    margin-left: 190px;
+  }
+  .introTwo-p {
+    font-size: large;
+    color: white;
+
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+  }
+  .certif-h4 {
+    text-align: center;
+    font-family: "Monocraft";
+    width: 90%;
+    color: black;
+  }
+
+  .title-h2 {
+    text-align: center;
+    font-family: "Monocraft";
+    margin-right: 55px;
+  }
+  @font-face {
+    font-family: "Monocraft";
+    src: url("Monocraft.ttf") format("truetype");
+  }
+
+  .certif-sec {
+    padding: 15px;
+    background-color: #ede0d4;
+    border-radius: 30px;
+    max-width: 75%;
+    margin-left: 190px;
+  }
+
+  .info-p {
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    background-color: #b08968;
+    border-radius: 25px;
+    padding: 30px;
+  }
+
+  .certif-link {
+    color: #7f5539;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+  }
+
+  .skill-info1 {
+    font-size: large;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    background-color: #b08968;
+    border-radius: 25px;
+    padding: 30px;
+  }
+
+  .skill-info2 {
+    font-size: large;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    background-color: #b08968;
+    border-radius: 25px;
+    padding: 30px;
+  }
+
+  /*new image*/
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+  }
+
+  .gallery-item {
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .gallery-item img {
+    border-radius: 15px;
+    width: 67%;
+    height: auto;
+    display: block;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  /*new image*/
+
+  hr {
+    border: 3px solid #7f5539;
+    border-radius: 50px;
+
+    width: 80%;
+  }
+
+  .spacingHeaders {
+    margin-bottom: 50px;
+  }
 }
-
-.gallery-item img {
-  border-radius: 15px;
-  width: 67%;
-  height: auto;
-  display: block;
-}
-
-.container{
-  display: grid;
-   grid-template-columns:1fr 1fr;
-   align-items: center; 
-
-    }
-    
-
-     /*new image*/
-
-     hr{
- 
-      border : 3px solid #7f5539;
-      border-radius: 50px;
-      
-      width: 80%;
-     }
-
-     .spacingHeaders{
-      margin-bottom: 50px;
-     }
-}
-
-
 
 /*spacing between headers*/
 
-
-.spacingHeaders{
+.spacingHeaders {
   margin-bottom: 70px;
- }
+}
